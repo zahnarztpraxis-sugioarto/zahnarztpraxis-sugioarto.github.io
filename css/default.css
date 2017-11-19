@@ -1,0 +1,83 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
+}
+
+div.main {
+	border-bottom: 0.8em solid gray;
+}
+
+div.main img.logo {
+	width: 100px;
+	float: left;
+}
+
+div.main div.mainsub {
+	margin-left: 8em;
+}
+
+div.main div.mainsub div.sub {
+	font-size: 70%;
+}
+
+div.main div.bar {
+	min-width: 500px;
+	max-width: 1200px;
+}
+
+div.main div.bar a {
+	font-weight: 600;
+	color: gray;
+	text-decoration: none;
+}
+
+div.main span {
+	padding-right: 5em;
+}
+
+div.content {
+	padding-top: 5ex;
+	min-width: 500px;
+	max-width: 1200px;
+	margin: 0 auto;
+	clear:both;
+}
+
+div.content h1 {
+	padding-top: 1ex;
+}
+
+div.content ul {
+	padding-left: 1em;
+}
+
+div.content ul li.none {
+	list-style-type: none;
+}
+
+div.content ul span.wt {
+	float: left;
+	font-weight: bold;
+	width: 10em;
+}
+
+div.lhs {
+	width: 50%;
+	float: left;
+	display: table-cell;
+}
+
+div.rhs {
+	width: 50%;
+	padding-left: 2ex;
+	display: table-cell;
+}
+
+div.lhs h1, div.rhs h1 {
+	border-top: 0.5em solid #b1dc00;
+	font-size: 18pt;
+}
+
+a.abst {
+	margin-left: 4em;
+}
