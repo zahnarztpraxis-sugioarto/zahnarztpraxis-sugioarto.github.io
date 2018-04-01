@@ -1,6 +1,29 @@
-body {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 12pt;
+@media (max-device-width: 480px) {
+	body {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 20pt;
+	}
+
+	div.lhs div.rhs {
+	}
+}
+@media (min-device-width: 481px) {
+	body {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 12pt;
+	}
+
+	div.lhs {
+		width: 50%;
+		float: left;
+		display: table-cell;
+	}
+
+	div.rhs {
+		width: 50%;
+		padding-left: 2ex;
+		display: table-cell;
+	}
 }
 
 div.main {
@@ -59,18 +82,6 @@ div.content ul span.wt {
 	float: left;
 	font-weight: bold;
 	width: 10em;
-}
-
-div.lhs {
-	width: 50%;
-	float: left;
-	display: table-cell;
-}
-
-div.rhs {
-	width: 50%;
-	padding-left: 2ex;
-	display: table-cell;
 }
 
 div.lhs h1, div.rhs h1 {
