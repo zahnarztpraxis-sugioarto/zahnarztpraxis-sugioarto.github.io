@@ -1,7 +1,7 @@
 @media (max-device-width: 480px) {
 	body {
 		font-family: 'Open Sans', sans-serif;
-		font-size: 20pt;
+		font-size: 24pt;
 	}
 
 	div.lhs div.rhs {
@@ -86,7 +86,7 @@ div.content ul span.wt {
 
 div.lhs h1, div.rhs h1 {
 	border-top: 0.5em solid #b1dc00;
-	font-size: 18pt;
+	font-size: 30pt;
 }
 
 a.abst {
