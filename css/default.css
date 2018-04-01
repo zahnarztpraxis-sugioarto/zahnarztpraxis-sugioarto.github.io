@@ -6,6 +6,17 @@
 
 	div.lhs div.rhs {
 	}
+
+	div.lhs h1, div.rhs h1 {
+		border-top: 0.5em solid #b1dc00;
+		font-size: 30pt;
+		font-weight: bold;
+	}
+
+	div.main img.logo {
+		width: 200px;
+		float: left;
+	}
 }
 @media (min-device-width: 481px) {
 	body {
@@ -24,15 +35,20 @@
 		padding-left: 2ex;
 		display: table-cell;
 	}
+
+	div.lhs h1, div.rhs h1 {
+		border-top: 0.5em solid #b1dc00;
+		font-size: 16pt;
+	}
+
+	div.main img.logo {
+		width: 100px;
+		float: left;
+	}
 }
 
 div.main {
 	border-bottom: 0.8em solid gray;
-}
-
-div.main img.logo {
-	width: 100px;
-	float: left;
 }
 
 div.main div.mainsub {
@@ -84,11 +100,6 @@ div.content ul span.wt {
 	width: 10em;
 }
 
-div.lhs h1, div.rhs h1 {
-	border-top: 0.5em solid #b1dc00;
-	font-size: 30pt;
-}
-
 a.abst {
-	margin-left: 4em;
+	margin-left: 2em;
 }
