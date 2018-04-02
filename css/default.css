@@ -1,49 +1,28 @@
-@media (max-device-width: 480px) {
-	body {
-		font-family: 'Lato', sans-serif;
-		font-size: 24pt;
-	}
-
-	div.lhs div.rhs {
-	}
-
-	div.lhs h1, div.rhs h1 {
-		border-top: 0.5em solid #b1dc00;
-		font-size: 34pt;
-	}
-
-	div.main img.logo {
-		width: 200px;
-		float: left;
-	}
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 12pt;
 }
-@media (min-device-width: 481px) {
-	body {
-		font-family: 'Lato', sans-serif;
-		font-size: 12pt;
-	}
 
-	div.lhs {
-		width: 50%;
-		float: left;
-		display: table-cell;
-	}
+div.lhs {
+	width: 50%;
+	float: left;
+	display: table-cell;
+}
 
-	div.rhs {
-		width: 50%;
-		padding-left: 2ex;
-		display: table-cell;
-	}
+div.rhs {
+	width: 50%;
+	padding-left: 2ex;
+	display: table-cell;
+}
 
-	div.lhs h1, div.rhs h1 {
-		border-top: 0.5em solid #b1dc00;
-		font-size: 16pt;
-	}
+div.lhs h1, div.rhs h1 {
+	border-top: 0.5em solid #b1dc00;
+	font-size: 16pt;
+}
 
-	div.main img.logo {
-		width: 100px;
-		float: left;
-	}
+div.main img.logo {
+	width: 100px;
+	float: left;
 }
 
 div.main {
