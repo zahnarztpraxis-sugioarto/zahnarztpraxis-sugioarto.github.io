@@ -53,9 +53,10 @@ div.main div.bar {
 	max-width: 1200px;
 }
 
-div.main div.bar span.copyright {
+div.copyright {
+	color: gray;
+	width: 80%;
 	text-align: right;
-	float: right;
 }
 
 div.main div.bar a {
