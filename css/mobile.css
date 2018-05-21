@@ -15,6 +15,11 @@ div.lhs h1, div.rhs h1 {
 	font-size: 34pt;
 }
 
+div.lhs h2, div.rhs h2 {
+	font-family: Lato;
+	font-size: 28pt;
+}
+
 div.main img.logo {
 	width: 200px;
 	float: left;
