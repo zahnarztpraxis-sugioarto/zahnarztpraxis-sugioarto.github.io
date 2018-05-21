@@ -31,6 +31,11 @@ div.lhs h1, div.rhs h1 {
 	font-size: 16pt;
 }
 
+div.lhs h2, div.rhs h2 {
+	font-family: Lato;
+	font-size: 14pt;
+}
+
 div.main img.logo {
 	width: 100px;
 	float: left;
@@ -87,6 +92,20 @@ div.content ul {
 
 div.content ul li.none {
 	list-style-type: none;
+}
+
+div#timetoggle {
+	color: #c00;
+	border: 1px solid #c00;
+	padding: 0.5em;
+}
+
+div.content ul li.nd {
+	color: #c00;
+}
+
+div.content ul li.nd a {
+	color: #c00;
 }
 
 div.content ul span.wt {
