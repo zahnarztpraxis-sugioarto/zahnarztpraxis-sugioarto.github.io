@@ -1,0 +1,55 @@
+img.praxislogo {
+	width: 100px;
+	margin: 0.5rem;
+}
+
+nav.navbar-praxis {
+	background-color: #9b1;
+}
+
+nav.navbar-praxis ul.navbar-nav a.link-praxis {
+	color: white;
+	font-weight: bold;
+}
+
+nav.praxismenu a,
+nav.praxismenu li {
+	color: #9b1;
+	font-weight: bold;
+}
+
+div.copyright {
+	margin-bottom: 2rem;
+}
+
+div.alert-info a {
+	color: #28e;
+	font-weight: bold;
+}
+
+div.alert-danger a {
+	color: #e22;
+	font-weight: bold;
+}
+
+a {
+	color: #9b1;
+}
+
+a:hover {
+	color: #9b1;
+}
+
+h2 {
+	margin-top: 3rem;
+	text-decoration: underline;
+	text-decoration-color: #9b1;
+}
+
+h3, h4, h5, h6 {
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 130%;
+}

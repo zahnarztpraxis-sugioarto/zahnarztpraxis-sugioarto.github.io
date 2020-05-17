@@ -2,109 +2,215 @@
 <html>
 	<head>
 		<title>Impressum der Zahnarztpraxis Sugioarto</title>
-		<link href="css/default.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/praxis.css" />
 		<link rel="shortcut icon" type="image/png" href="img/favicon.png" />
 		<meta charset="UTF-8">
 		<meta name="description" content="Impressum der Webseite der Zahnarztpraxis Sugioarto in Werne Stockum.">
 		<meta name="keywords" content="Impressum, Zahnarztpraxis, Sugioarto, Werne">
-		<script src="js/all.js"></script>
+		<script src="js/jquery-3.5.1.min.js"></script>
+		<script src="js/popper.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		<div class="main">
-			<img src="img/zahn.png" alt="Praxislogo" class="logo">
-			<div class="mainsub">
-				<h1>Impressum der Zahnarztpraxis Sugioarto
-				<div class="sub">in Werne Stockum</div></h1>
-				<div class="bar">
-					<a href="index.html">Hauptseite</a>
+		<header>
+		<div class="media">
+			<img src="img/zahn.png" alt="Praxislogo" class="align-self-start mr-3 praxislogo">
+			<div class="mediabody">
+				<h1 class="display-4">Zahnarztpraxis Sugioarto</h1>
+				<h2 class="display-5">in Werne Stockum</h2>
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-sm navbar-light navbar-praxis">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link link-praxis" href="index.html">Hauptseite</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link link-praxis" href="impressum.html">Impressum</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="container-fluid copyright">
+		<div class="row">
+			<div class="col"></div>
+			<div class="col align-self-end">&copy; 2020, Dewy Sugioarto, alle Rechte vorbehalten</div>
+		</div>
+		</div>
+		</header>
+
+		<div class="container-fluid">
+		<div class="row flex-xl-nowrap">
+
+		<nav class="d-none d-xl-block col-xl-2 order-last praxismenu">
+		<ul class="section-nav">
+			<li class="toc-entry toc-h2"><a href="#betreiber">Betreiber</a></li>
+			<li class="toc-entry toc-h2"><a href="#berufsbezeichnung">Angaben zur Berufsbezeichnung</a></li>
+			<li class="toc-entry toc-h2"><a href="#kammer">Zuständige Kammer</a></li>
+			<li class="toc-entry toc-h2"><a href="#aufsicht">Zuständige Aufsichtsbehörde</a></li>
+			<li class="toc-entry toc-h2"><a href="#bezirksregierung">Zuständige Bezirksregierung</a></li>
+			<li class="toc-entry toc-h2"><a href="#berufsrecht">Berufsrechtliche Regelungen</a></li>
+			<li class="toc-entry toc-h2"><a href="#urheberrecht">Urheberrechtshinweis</a></li>
+			<li class="toc-entry toc-h2"><a href="#rechtlich">Rechtliche Hinweise</a></li>
+		</ul>
+		</nav>
+
+		<main role="main">
+		<div class="container-fluid">
+			<h1>Informationen des Betreibers dieser Internetseite gemäß des §5 TDG</h1>
+			<h2 id="betreiber">Betreiber</h2>
+
+			<div class="card mb-3">
+			<div class="row nogutters">
+			<div class="col-md-8">
+				<div class="card-body">
+					<address>
+						<h5 class="card-title">Zahnärztin Dewy Sugioarto</h5>
+						<h6 class="card-subtitle text-muted">Zahnarztpraxis Sugioarto</h6>
+						<p>
+							Werner Straße 84<br>
+							59368 Werne<br>
+						</p>
+						<p>
+							Telefon: <a href="tel:023894754">02389 4754</a><br>
+							E-Mail: <span style="vertical-align: -7px;"><canvas id="insertaddy" width="400" height="24"></canvas></span><br>
+							(in dringenden Fällen nutzen Sie bitte den telefonischen Weg)<br>
+						</p>
+					</address>
+					<script src="js/email.js"></script>
 				</div>
 			</div>
-		</div>
-		<div class="copyright">&copy; 2019, Dewy Sugioarto, alle Rechte vorbehalten</div>
-		<div class="content">
-			<div class="rhs">
-				<h1>Informationen des Betreibers dieser Internetseite gemäß des §5 TDG</h1>
-				<ul>
-					<li><span class="wt">Betreiber:</span> Zahnarztpraxis
-					<li class="none"><span class="wt">&nbsp;</span> Zahnärztin Dewy Sugioarto
-					<li class="none"><span class="wt">&nbsp;</span> Werner Straße 84
-					<li class="none"><span class="wt">&nbsp;</span> 59368 Werne
-					<li><span class="wt">Telefon:</span> <a href="tel:023894754">02389 4754</a>
-					<li><span class="wt">E-Mail:</span> <span style="vertical-align: top;"><canvas id="insertaddy" width="400" height="24"></canvas></span> (in dringenden Fällen nutzen Sie bitte den telefonischen Weg)
-				</ul>
-				<script src="js/email.js"></script>
-				<h2>Angaben zur Berufsbezeichnung</h2>
-				<p>Frau Dewy Sugioarto trägt den Titel „Zahnärztin”.</p>
-				<p>
-				Die zahnärztliche Approbation wurde Frau Dewy Sugioarto in
-				der Bundesrepublik Deutschland von der Christian-Albrechts-Universität
-				zu Kiel verliehen.
-				</p>
-				<h2>Zuständige Kammer</h2>
-				<ul>
-				<li><span class="wt">Adresse:</span> Zahnärztekammer Westfalen-Lippe
-				<li class="none"><span class="wt">&nbsp;</span> Auf der Horst 29
-				<li class="none"><span class="wt">&nbsp;</span> 48147 Münster
-				<li class="none"><span class="wt">&nbsp;</span> &nbsp;
-				<li><span class="wt">Anschrift:</span> Zahnärztekammer Westfalen-Lippe
-				<li class="none"><span class="wt">&nbsp;</span> Postfach 8843
-				<li class="none"><span class="wt">&nbsp;</span> 48047 Münster
-				<li class="none"><span class="wt">&nbsp;</span> &nbsp;
-				<li><span class="wt">Telefon:</span> <a href="tel:0251507576">0251 507576</a>
-				</ul>
-				<h2>Zuständige Aufsichtsbehörde</h2>
-				<ul>
-				<li><span class="wt">Adresse:</span> Kassenzahnärztliche Vereinigung Westfalen-Lippe
-				<li class="none"><span class="wt">&nbsp;</span> Auf der Horst 25
-				<li class="none"><span class="wt">&nbsp;</span> 48147 Münster
-				<li class="none"><span class="wt">&nbsp;</span> &nbsp;
-				<li><span class="wt">Anschrift:</span> Kassenzahnärztliche Vereinigung Westfalen-Lippe
-				<li class="none"><span class="wt">&nbsp;</span> Postfach 4220
-				<li class="none"><span class="wt">&nbsp;</span> 48023 Münster
-				<li class="none"><span class="wt">&nbsp;</span> &nbsp;
-				<li><span class="wt">Telefon:</span> <a href="tel:02515070">0251 5070</a>
-				</ul>
-				<h2>Zuständige Bezirksregierung</h2>
-				<ul>
-				<li><span class="wt">Adresse/Anschrift:</span> Bezirksregierung Arnsberg
-				<li class="none"><span class="wt">&nbsp;</span> Seibertzstraße 1
-				<li class="none"><span class="wt">&nbsp;</span> 59821 Arnsberg
-				<li class="none"><span class="wt">&nbsp;</span> &nbsp;
-				<li><span class="wt">Telefon:</span> <a href="tel:02931820">02931 820</a>
-				</ul>
-				<h2>Berufsrechtliche Regelungen</h2>
-				<ul>
-				<li>Zahnheilkundegesetz
-				<li>Heilberufe-Kammergesetz
-				<li>Gebührenordnung für Zahnärzte
-				<li>Berufsordnung für die Zahnärzte in Westfalen-Lippe
-				</ul>
-				<p>
-				Konkrete Details zu diesen Regelungen entnehmen Sie bitte
-				aus den
-				<a href="https://www.zahnaerzte-wl.de/praxisteam/recht/">Webseiten der Zahnärztekammer Westfalen-Lippe</a>.
-				</p>
+			<div class="col-md-4">
+				<img src="res/ZA Dewy SugioartoQR.png" alt="Visitenkarte als QR-Code" width="300rem" />
 			</div>
-		</div>
-		<div class="content">
-			<div class="rhs">
-				<h1>Urheberrechtshinweis</h1>
+			</div>
+			</div>
+
+			<h2 id="berufsbezeichnung">Angaben zur Berufsbezeichnung</h2>
+			<p>Frau Dewy Sugioarto trägt den Titel „Zahnärztin”.</p>
+			<p>
+			Die zahnärztliche Approbation wurde Frau Dewy Sugioarto in
+			der Bundesrepublik Deutschland von der Christian-Albrechts-Universität
+			zu Kiel verliehen.
+			</p>
+
+			<h2 id="kammer">Zuständige Kammer</h2>
+
+			<h3>Adresse</h3>
+
+			<div class="card mb-3">
+			<div class="card-body">
+			<address>
+				<h5 class="card-title">Zahnärztekammer Westfalen-Lippe</h5>
 				<p>
+				Auf der Horst 29<br>
+				48147 Münster<br>
+				</p>
+
+				<p>
+				Telefon: <a href="tel:0251507576">0251 507576</a>
+				</p>
+			</address>
+			</div>
+			</div>
+		
+			<h3>Anschrift</h3>
+
+			<div class="card mb-3">
+			<div class="card-body">
+			<address>
+				<h5 class="card-title">Zahnärztekammer Westfalen-Lippe</h5>
+				<p>
+				Postfach 8843<br>
+				48047 Münster<br>
+				</p>
+			</address>
+			</div>
+			</div>
+
+			<h2 id="aufsicht">Zuständige Aufsichtsbehörde</h2>
+
+			<h3>Adresse</h3>
+
+			<div class="card">
+			<div class="card-body">
+			<address>
+				<h5 class="card-title">Kassenzahnärztliche Vereinigung Westfalen-Lippe</h5>
+				<p>
+				Auf der Horst 25<br>
+				48147 Münster<br>
+				</p>
+
+				<p>
+				Telefon: <a href="tel:02515070">0251 5070</a>
+				</p>
+			</address>
+			</div>
+			</div>
+
+			<h3>Anschrift</h3>
+
+			<div class="card">
+			<div class="card-body">
+			<address>
+				<h5 class="card-title">Kassenzahnärztliche Vereinigung Westfalen-Lippe</h5>
+				<p>
+				Postfach 4220<br>
+				48023 Münster<br>
+				</p>
+			</address>
+			</div>
+			</div>
+
+			<h2 id="bezirksregierung">Zuständige Bezirksregierung</h2>
+
+			<h3>Addresse und Anschrift</h3>
+
+			<div class="card">
+			<div class="card-body">
+			<address>
+				<h5 class="card-title">Bezirksregierung Arnsberg</h5>
+				<p>
+					Seibertzstraße 1<br>
+					59821 Arnsberg<br>
+				</p>
+
+			<p>
+			Telefon: <a href="tel:02931820">02931 820</a>
+			</p>
+			</address>
+			</div>
+			</div>
+
+			<h2 id="berufsrecht">Berufsrechtliche Regelungen</h2>
+			<p>
+			<ul>
+			<li>Zahnheilkundegesetz
+			<li>Heilberufe-Kammergesetz
+			<li>Gebührenordnung für Zahnärzte
+			<li>Berufsordnung für die Zahnärzte in Westfalen-Lippe
+			</ul>
+			</p>
+			<p>
+			Konkrete Details zu diesen Regelungen entnehmen Sie bitte
+			aus den
+			<a href="https://www.zahnaerzte-wl.de/praxisteam/recht/">Webseiten der Zahnärztekammer Westfalen-Lippe</a>.
+			</p>
+
+			<h2 id="urheberrecht">Urheberrechtshinweis</h2>
+			<p>
 				Alle auf dieser Seite verwendeten
 				Inhalte, wie Texte, Quellcode und Abbildungen sind Eigentum der
 				Zahnarztpraxis Sugioarto.
-				</p>
-				<p>
+			</p>
+			<p>
 				Es ist nicht gestattet diese Inhalte zu kopieren, für
 				eigene Zwecke zu nutzen oder in irgend einer
 				anderen Art zu verbreiten.
-				</p>
-			</div>
-		</div>
-		<div class="content">
-			<div class="rhs">
-				<h1>Rechtliche Hinweise</h1>
-				<p>
+			</p>
+
+			<h2 id="rechtlich">Rechtliche Hinweise</h2>
+			<p>
 				Es wird keine Gewähr übernommen für die
 				Aktualität, Richtigkeit, Vollständigkeit oder
 				Qualität der bereitgestellten Informationen.
@@ -114,15 +220,18 @@
 				Nutzung fehlerhafter und unvollständiger
 				Informationen unmittelbar oder mittelbar
 				verursacht werden, wird nicht gehaftet.
-				</p>
-				<p>
+			</p>
+			<p>
 				Der Anbieter behält sich vor, Teile des
 				Internetangebots oder das gesamte Angebot ohne
 				gesonderte Ankündigung zu verändern, zu
 				ergänzen, zu löschen oder die Veröffentlichung
 				zeitweise oder endgültig einzustellen.
-				</p>
-			</div>
+			</p>
+		</div>
+		</main>
+
+		</div>
 		</div>
 	</body>
 </html>

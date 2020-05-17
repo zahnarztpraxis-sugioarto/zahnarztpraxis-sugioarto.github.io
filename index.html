@@ -2,73 +2,141 @@
 <html>
 	<head>
 		<title>Zahnarztpraxis Sugioarto</title>
-		<link href="css/default.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/praxis.css" />
 		<link rel="shortcut icon" type="image/png" href="img/favicon.png" />
 		<meta charset="UTF-8">
 		<meta name="description" content="Webseite der Zahnarztpraxis Sugioarto in Werne Stockum.">
 		<meta name="keywords" content="Zahnärztin, Zahnarzt, Zahnarztpraxis, Sugioarto, Werne, Stockum, Praxis">
-		<script src="js/all.js"></script>
+		<script src="js/jquery-3.5.1.min.js"></script>
+		<script src="js/popper.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		<div class="main">
-			<img src="img/zahn.png" alt="Praxislogo" class="logo">
-			<div class="mainsub">
-				<h1>Zahnarztpraxis Sugioarto
-				<div class="sub">in Werne Stockum</div></h1>
-				<div class="bar">
-					<a href="impressum.html">Impressum</a>
-				</div>
+		<header>
+		<div class="media">
+			<img src="img/zahn.png" alt="Praxislogo" class="align-self-start mr-3 praxislogo">
+			<div class="mediabody">
+				<h1 class="display-4">Zahnarztpraxis Sugioarto</h1>
+				<h2 class="display-5">in Werne Stockum</h2>
 			</div>
 		</div>
-		<div class="copyright">&copy; 2019, Dewy Sugioarto, alle Rechte vorbehalten</div>
-		<div class="content">
-			<div class="lhs">
-				<h1>Willkommen</h1>
-				<img src="img/zahnersatz.jpg" style="width: 100%" alt="Foto mit Zahnersatz">
-				<p>
+		<nav class="navbar navbar-expand-sm navbar-light navbar-praxis">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link link-praxis" href="index.html">Hauptseite</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link link-praxis" href="impressum.html">Impressum</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="container-fluid copyright">
+		<div class="row">
+			<div class="col"></div>
+			<div class="col align-self-end">&copy; 2020, Dewy Sugioarto, alle Rechte vorbehalten</div>
+		</div>
+		</div>
+		</header>
+
+		<div class="container-fluid">
+		<div class="row flex-xl-nowrap">
+
+		<nav class="d-none d-xl-block col-xl-2 order-last praxismenu">
+		<ul class="section-nav">
+			<li class="toc-entry toc-h2"><a href="#willkommen">Willkommen</a></li>
+			<li class="toc-entry toc-h2"><a href="#sprechzeiten">Sprechzeiten</a></li>
+			<li class="toc-entry toc-h2"><a href="#anfahrt">Anfahrt / Kontakt</a></li>
+		</ul>
+		</nav>
+
+		<main role="main">
+		<div class="container-fluid">
+		<div class="row">
+			<div class="col">
+				<h1 id="willkommen">Willkommen</h1>
+				<div class="card">
+				<img src="img/zahnersatz.jpg" class="img-fluid" alt="Foto mit Zahnersatz">
+				<p class="card-body">
 				Willkommen auf den Webseiten der Zahnarztpraxis Sugioarto.
 				</p>
+				</div>
 			</div>
-			<div class="rhs">
-				<h1>Sprechzeiten</h1>
-				<ul>
-					<li><span class="wt">Montag:</span> 08:00 bis 12:00, 14:30 bis 18:00
-					<li><span class="wt">Dienstag:</span> 08:00 bis 12:00, 14:30 bis 18:00
-					<li><span class="wt">Mittwoch:</span> 08:00 bis 12:00
-					<li><span class="wt">Donnerstag:</span> 08:00 bis 12:00, 14:30 bis 18:00
-					<li><span class="wt">Freitag:</span> 08:00 bis 12:00
-				</ul>
-				<ul>
-					<li><strong>Wir haben geschlossen am: 22. Mai 2020</strong>
-					<li><strong>Wir sind wieder für Sie da am 25. Mai 2020.</strong>
-					<li><strong>Vertretung: <a href="https://www.marxkors.de/">Gemeinschaftspraxis Dres. Marxkors</a></strong>
-				</ul>
+			<div class="col">
+				<h1 id="sprechzeiten">Sprechzeiten</h1>
+				<div class="card">
+				<div class="card-body">
+					<dl class="row">
+						<dt class="col-sm-3">Montag:</dt>
+						<dd class="col-sm-9">08:00 bis 12:00, 14:30 bis 18:00</dd>
 
-				<div id="timetoggle">Außerhalb der Sprechzeiten wenden Sie sich bitte an den<br>
-				<ul>
-					<li class="nd"><span class="wt">Notdienst:</span> <a href="tel:01805986700">01805 986700</a>
-				</ul>
+						<dt class="col-sm-3">Dienstag:</dt>
+						<dd class="col-sm-9">08:00 bis 12:00, 14:30 bis 18:00</dd>
+
+						<dt class="col-sm-3">Mittwoch:</dt>
+						<dd class="col-sm-9">08:00 bis 12:00</dd>
+
+						<dt class="col-sm-3">Donnerstag:</dt>
+						<dd class="col-sm-9">08:00 bis 12:00, 14:30 bis 18:00</dd>
+
+						<dt class="col-sm-3">Freitag:</dt>
+						<dd class="col-sm-9">08:00 bis 12:00</dd>
+					</dl>
+				</div>
+				<div class="alert alert-info" role="alert">
+					<h5>Praxis geschlossen</h5>
+					<p>
+					Wir haben am 22. Mai 2020 geschlossen.<br>
+					Wir sind wieder für Sie da am 25. Mai 2020.<br>
+					Vertretung: <a href="https://www.marxkors.de/">Gemeinschaftspraxis Dres. Marxkors</a></strong>
+					</p>
+				</div>
+				<div class="alert alert-danger" role="alert" id="timetoggle">
+					<h5>Notdienst</h5>
+					<p>
+						Außerhalb der Sprechzeiten wenden Sie sich bitte an den Notdienst<br>
+						unter der Telefonnummer: <a href="tel:01805986700">01805 986700</a>
+					</p>
 				</div>
 				<script src="js/notdienst.js"></script>
+				</div>
 			</div>
 		</div>
-		<div class="content">
-			<div class="lhs">
-				<h1>Kontakt / Anfahrt</h1>
+		<div class="row">
+			<div class="col">
+				<h1 id="anfahrt">Kontakt / Anfahrt</h1>
+				<div class="card">
 				<a href="http://maps.google.com/maps?q=Werner+Str+84+59368+Werne">
-				<img src="img/karte-simple.png" style="width: 100%" alt="Karte mit Anfahrt zur Praxisadresse Werner Straße 84, 59368 Werne">
+				<img src="img/karte-simple.png" class="img-fluid" alt="Karte mit Anfahrt zur Praxisadresse Werner Straße 84, 59368 Werne">
 				</a>
-				<ul>
-					<li><span class="wt">Adresse:</span> Werner Straße 84
-					<li class="none"><span class="wt">&nbsp;</span> 59368 Werne
-					<li><span class="wt">Telefon:</span> <a href="tel:023894754">02389 4754</a>
-				</ul>
+				<div class="card-body">
+					<div class="row">
+					<div class="col">
+						<h5 class="card-title">Adresse</h5>
+						<h6 class="card-subtitle text-muted">Zahnarztpraxis Sugioarto</h6>
+						<p>
+							Werner Straße 84<br>
+							59368 Werne<br>
+						</p>
+						<h5 class="card-title">Telefon</h5>
+						<p>
+							<a href="tel:023894754">02389 4754</a><br>
+						</p>
+					</div>
+					<div class="col">
+						<img src="res/ZA Dewy SugioartoQR.png" alt="Visitenkarte als QR-Code" class="img-fluid" />
+					</div>
+					</div>
+				</div>
+				</div>
 			</div>
-			<div class="rhs">
-				<h1></h1>
-				<p>&nbsp;
-				</p>
+			<div class="col">
 			</div>
+		</div>
+		</div>
+		</main>
+
+		</div>
 		</div>
 	</body>
 </html>
